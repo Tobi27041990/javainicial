@@ -18,12 +18,12 @@ public class Ejercicio11 {
 	}
 
 	private static void solucionEntero(int numero) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	private static void solucionCadena(int numero) {
-		String cadena = "" +num;
+		
+		String cadena = "" + numero;
 		for (int i = 0; i< cadena.toCharArray().length; i++) {
 			char digito = cadena.toCharArray()[i];
 			System.out.println(digito);
@@ -40,4 +40,6 @@ public class Ejercicio11 {
 		return validarIngreso(numero, scanner);
 	}
 
+	}
 }
+
